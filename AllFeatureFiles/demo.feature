@@ -10,3 +10,7 @@ Feature: Test Sauce Demo Application
     And user click on Sauce Labs Bike Light add to cart
     And user click on shopping cart button
     And user click on checkout button
+
+  Scenario: validate chekout page functionality
+    When user enter firstname lastname and pincode and click on continue button
+    And user click on finish button
