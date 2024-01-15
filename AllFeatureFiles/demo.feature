@@ -14,3 +14,6 @@ Feature: Test Sauce Demo Application
   Scenario: validate chekout page functionality
     When user enter firstname lastname and pincode and click on continue button
     And user click on finish button
+
+  Scenario: validate success message
+    Then user validate thank you for your order maessage
